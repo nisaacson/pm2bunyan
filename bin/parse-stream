@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var input = process.stdin
+var parseStream = require('../index')
+parseStream(input)

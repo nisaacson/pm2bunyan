@@ -1,0 +1,23 @@
+{
+  "name": "pm2bunyan",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pm2bunyan": "bin/parse-stream.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bunyan": "^0.23.1",
+    "chai": "^1.9.1",
+    "expect": "^0.1.1",
+    "mocha": "^1.20.1"
+  }
+}
