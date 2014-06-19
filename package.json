@@ -4,7 +4,7 @@
   "description": "Formats pm2 log streams for parsing with bunyan",
   "main": "index.js",
   "bin": {
-    "pm2bunyan": "bin/parse-stream.js"
+    "pm2bunyan": "bin/parse-stream"
   },
   "directories": {
     "test": "test"
