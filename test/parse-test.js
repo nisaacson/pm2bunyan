@@ -1,5 +1,4 @@
 var parse = require('../lib/parse')
-var inspect = require('eyespect').inspector
 var expect = require('chai').expect
 
 describe('Parse pm2 logs', function() {
@@ -9,9 +8,7 @@ describe('Parse pm2 logs', function() {
     var output = parse(input)
     expect(output).to.exist
     expect(output).to.be.a('string')
-    inspect(output, 'output')
     var row = JSON.parse(output)
-    inspect(row, 'row')
     expect(row).to.exist
     expect(row.name).to.equal('dummy logger')
   })
