@@ -1,6 +1,6 @@
 # pm2bunyan
 
-Formats pm2 logs bunyan output
+Formats pm2 logs for bunyan output
 
 # Installation
 
