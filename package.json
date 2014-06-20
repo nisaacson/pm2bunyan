@@ -1,6 +1,6 @@
 {
   "name": "pm2bunyan",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Formats pm2 log streams for parsing with bunyan",
   "main": "index.js",
   "bin": {
